@@ -1,0 +1,6 @@
+c:\users\dinyo donchev\documents\visual studio 2013\Projects\GameBookTheGreatMountainHike\GameBookTheGreatMountainHike\bin\Debug\GameBookTheGreatMountainHike.exe.config
+c:\users\dinyo donchev\documents\visual studio 2013\Projects\GameBookTheGreatMountainHike\GameBookTheGreatMountainHike\bin\Debug\GameBookTheGreatMountainHike.exe
+c:\users\dinyo donchev\documents\visual studio 2013\Projects\GameBookTheGreatMountainHike\GameBookTheGreatMountainHike\bin\Debug\GameBookTheGreatMountainHike.pdb
+c:\users\dinyo donchev\documents\visual studio 2013\Projects\GameBookTheGreatMountainHike\GameBookTheGreatMountainHike\obj\Debug\GameBookTheGreatMountainHike.csprojResolveAssemblyReference.cache
+c:\users\dinyo donchev\documents\visual studio 2013\Projects\GameBookTheGreatMountainHike\GameBookTheGreatMountainHike\obj\Debug\GameBookTheGreatMountainHike.exe
+c:\users\dinyo donchev\documents\visual studio 2013\Projects\GameBookTheGreatMountainHike\GameBookTheGreatMountainHike\obj\Debug\GameBookTheGreatMountainHike.pdb
