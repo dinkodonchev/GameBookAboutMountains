@@ -42,19 +42,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adventures\Obstacles\ObstacleFactory.cs" />
+    <Compile Include="Constants\Pages\Page.cs" />
+    <Compile Include="Contracts\IObstacleFactory.cs" />
     <Compile Include="GreatMountainHike.cs" />
     <Compile Include="HeroModels\AdventurousExplorer.cs" />
     <Compile Include="HeroModels\ArchModel.cs" />
     <Compile Include="HeroModels\HunterModel.cs" />
     <Compile Include="HeroModels\Mountaineer.cs" />
     <Compile Include="HeroModels\ShepherdModel.cs" />
+    <Compile Include="MountainAreas\Area.cs" />
+    <Compile Include="MountainAreas\EasternSlope.cs" />
+    <Compile Include="MountainAreas\NorthernSlope.cs" />
+    <Compile Include="MountainAreas\SouthernSlope.cs" />
+    <Compile Include="MountainAreas\WesternSlope.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Contracts\" />
+    <Folder Include="Adventures\GoodLuckMeetings\" />
+    <Folder Include="Common\" />
+    <Folder Include="Enumerables\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
