@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameBookTheGreatMountainHike.HeroModels
+namespace GameBookTheGreatMountainHike.MountainAreas
 {
-    public class Mountaineer : ArchModel
+    public class WesternSlope : Area
     {
 
     }

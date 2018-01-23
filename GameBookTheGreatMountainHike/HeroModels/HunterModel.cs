@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameBookTheGreatMountainHike.HeroModels
 {
-    class HunterModel : ArchModel
+    public class HunterModel : ArchModel
     {
     }
 }

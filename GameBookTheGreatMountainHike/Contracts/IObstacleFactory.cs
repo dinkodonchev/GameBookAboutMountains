@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameBookTheGreatMountainHike.HeroModels
+namespace GameBookTheGreatMountainHike.Contracts
 {
-    public class Mountaineer : ArchModel
+    public interface IObstacleFactory
     {
 
     }

@@ -12,6 +12,11 @@ namespace GameBookTheGreatMountainHike
 
     public class GreatMountainHike
     {
+        
+        
+
+        
+
         static void Main(string[] args)
         {
 
@@ -23,13 +28,32 @@ namespace GameBookTheGreatMountainHike
 
             // The actual cool text and game logic for the book you can create along the way or at the very end ;)
 
+            
+
             ArchModel Hero = new ArchModel();
             //Set up some variables we will need along the way
             string charClass = "";
             int pageNumber = 0;
-            
-            
 
+            //DiceRollForWarmUp
+            int diceOutcome = Hero.RollDice();
+            string stringDiceOutcome = Hero.RollDice().ToString();
+            Console.WriteLine("Your first dice roll for warmup! Cmon, go ahead!");
+            Console.WriteLine(stringDiceOutcome);
+
+            //More testing of dice logic
+            Console.WriteLine();
+            Console.WriteLine("More testing of dice logic: ");
+            Console.WriteLine();
+            if (diceOutcome >= 6)
+            {
+                Console.WriteLine("You shall pass!");
+            }
+            else 
+            {
+                Console.WriteLine("Youuu... shall nooot... paaaass!");
+            }
+            Console.WriteLine();
             Console.WriteLine("Would you like to choose your hero class or do you leave it at the hands of Faith?");
             Console.WriteLine();
             Console.WriteLine("To choose - press Y. To leave it at random - press N.");
@@ -117,7 +141,7 @@ namespace GameBookTheGreatMountainHike
             //Declaring the type of character and his initial adventure, according to it
             Page page = new Page(pageNumber);
             page.WritePageContent();
-            //More Tests - ToDo - To think of an actual question which goes with the story. The story should slowly start to unfold and come together.
+            //More Tests - ToDo - First serious question! To think of an actual question which goes with the story. The story should slowly start to unfold and come together.
             Console.WriteLine("What do you choose? A, B, C or D?");
             Console.WriteLine();
             ConsoleKeyInfo ABCD_Choice = Console.ReadKey();
@@ -128,8 +152,25 @@ namespace GameBookTheGreatMountainHike
                 page = new Page(7);
                 page.WritePageContent();
             }
-            
-           
+            else if (ABCD_Choice.Key == ConsoleKey.B)
+            {
+                page = new Page(8);
+                page.WritePageContent();
+            }
+            else if (ABCD_Choice.Key == ConsoleKey.C)
+            {
+                page = new Page(9);
+                page.WritePageContent();
+            }
+            else if (ABCD_Choice.Key == ConsoleKey.D)
+            {
+                page = new Page(10);
+                page.WritePageContent();
+            }
+
+            //Printing Hero stats
+            Console.WriteLine("Hero stats as follows: ");
+            Hero.GetHeroStats();
 
             // Here goes beginning of story according to your hero class
 
